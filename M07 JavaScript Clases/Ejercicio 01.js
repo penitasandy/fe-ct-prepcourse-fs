@@ -41,8 +41,9 @@ function agregarStringInvertida() {
       var separar = this.split("");
       var reversa = separar.reverse();
       var juntar = reversa.join("");
+      return juntar;
    }
-   return juntar;
+
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
